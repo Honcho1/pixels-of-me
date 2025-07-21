@@ -1,7 +1,6 @@
-#home {
+.gradient-background {
   height: 100vh;
-  background-image: url("./assets/images/hero_background.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: linear-gradient(300deg, #48483a, #74776b);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
 }
