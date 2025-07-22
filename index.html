@@ -19,63 +19,65 @@
   </head>
   <body>
     <section id="home" class="home">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container-fluid">
-          <a class="navbar-brand d-flex align-items-center" href="#">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="20"
-              height="20"
-              fill="white"
-              class="bi bi-amd me-2"
-              viewBox="0 0 16 16"
+      <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="20"
+                height="20"
+                fill="white"
+                class="bi bi-amd me-2"
+                viewBox="0 0 16 16"
+              >
+                <path
+                  d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"
+                />
+              </svg>
+              <span class="fs-4">Code & Create</span>
+            </a>
+            <!-- Toggle Button (right side, appears on mobile) -->
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarNav"
+              aria-controls="navbarNav"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
             >
-              <path
-                d="m.334 0 4.358 4.359h7.15v7.15l4.358 4.358V0zM.2 9.72l4.487-4.488v6.281h6.28L6.48 16H.2z"
-              />
-            </svg>
-            <span class="fs-4">Code & Create</span>
-          </a>
-
-          <!-- Toggle Button (right side, appears on mobile) -->
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link active" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Skills</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Education</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-            </ul>
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item px-3">
+                  <a class="nav-link active" href="#">Home</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Skills</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Education</a>
+                </li>
+                <li class="nav-item px-3">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
-      </nav>
+        </nav>
+      </div>
 
       <div class="px-4 py-5 my-5 text-center">
-        <h1 class="display-5 fw-bold text-body-emphasis">I'm Daniel</h1>
+        <h1 class="display-5 fw-bold text-body-emphasis mb-4">I'm Daniel.</h1>
         <div class="col-lg-6 mx-auto">
-          <p class="lead mb-4">a software engineer.</p>
+          <p class="lead mb-4">
+            a <span class="underline">software</span> engineer.
+          </p>
         </div>
       </div>
     </section>

@@ -1,23 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 .home {
   background-color: #181c14;
   height: 100vh;
 }
 
-/* .container header a span.slogan {
-  color: #fff;
+#navbarNav > ul > li > a {
+  color: #ecdfcc;
+}
+
+#navbarNav > ul > li > a:hover {
+  color: #697565;
+}
+
+.home > div.container > nav > div > a > span {
   font-weight: bold;
   font-size: 1.75rem !important;
 }
 
-.nav .nav-item .custom-link {
+.home > div.px-4.py-5.my-5.text-center {
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.home > div.px-4.py-5.my-5.text-center > h1 {
+  color: #fff !important;
+  font-family: "Roboto";
+  font-weight: bold;
+  font-size: 5rem;
+}
+
+.home > div.px-4.py-5.my-5.text-center > div > p {
   color: #ecdfcc;
+  font-size: 1.5rem;
 }
 
-.nav .nav-item .custom-link:hover {
-  color: #697565;
+/* Underline the software */
+.underline {
+  text-decoration: underline;
 }
-
-div.container > header > a > svg {
-  color: #fff;
-  fill: #fff;
-} */
