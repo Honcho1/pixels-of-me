@@ -8,3 +8,16 @@
   font-weight: bold;
   font-size: 1.75rem !important;
 }
+
+.nav .nav-item .custom-link {
+  color: #ecdfcc;
+}
+
+.nav .nav-item .custom-link:hover {
+  color: #697565;
+}
+
+div.container > header > a > svg {
+  color: #fff;
+  fill: #fff;
+}
