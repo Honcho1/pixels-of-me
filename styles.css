@@ -1,3 +1,10 @@
 .home {
   background-color: #181c14;
+  height: 100vh;
+}
+
+.container header a span.slogan {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.75rem !important;
 }
