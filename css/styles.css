@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 .home {
   background-color: #181c14;
@@ -28,7 +28,7 @@
 
 .home > div.px-4.py-5.my-5.text-center > h1 {
   color: #fff !important;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 5rem;
 }
@@ -41,4 +41,17 @@
 /* Underline the software */
 .underline {
   text-decoration: underline;
+}
+
+.about > div > div > div.col-10.col-sm-8.col-lg-6 > img {
+  border-radius: 20px;
+}
+
+.about > div > div > div:nth-child(2) > h2 {
+  color: #181c14;
+}
+
+.about > div > div > div:nth-child(2) > p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
 }
