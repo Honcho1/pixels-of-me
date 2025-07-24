@@ -47,8 +47,8 @@
   border-radius: 20px;
 }
 
-.about > div > div > div:nth-child(2) > h2 {
-  color: #181c14;
+section .section-title {
+  color: #181c14 !important;
 }
 
 .about > div > div > div:nth-child(2) > p {
@@ -58,4 +58,15 @@
 
 .skills {
   background-color: #ecdfcc;
+}
+
+.skills > div .skills-img {
+  border-radius: 10px;
+  max-height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.skills > div p {
+  font-family: "Montserrat", sans-serif;
 }
