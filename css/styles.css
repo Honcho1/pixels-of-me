@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
+/* Home Section and General Rules */
 .home {
   background-color: #181c14;
   height: 100vh;
@@ -58,7 +59,7 @@ h3 {
   text-decoration: underline;
 }
 
-.about > div > div > div.col-10.col-sm-8.col-lg-6 > img {
+.about > div > div > div > img {
   border-radius: 20px;
 }
 
@@ -66,6 +67,7 @@ section .section-title {
   color: #181c14 !important;
 }
 
+/* About Section */
 .about > div > div > div:nth-child(2) > p {
   font-family: "Montserrat", sans-serif;
   font-weight: 300;
@@ -76,6 +78,7 @@ section .section-title {
   transition: transform 0.3s ease-in-out;
 }
 
+/* Skills Section */
 .skills {
   background-color: #ecdfcc;
 }
@@ -87,6 +90,7 @@ section .section-title {
   object-fit: cover;
 }
 
+/* Education Section */
 .education {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -97,6 +101,7 @@ section .section-title {
   font-weight: 400;
 }
 
+/* Contact Section */
 section.contact {
   background-color: #3c3d37;
   color: #fff;
@@ -108,6 +113,7 @@ section.contact > div > h2 {
   color: #fff !important;
 }
 
+/* Footer Section */
 .footer {
   background-color: #181c14;
 }
