@@ -27,14 +27,14 @@
   justify-content: center;
 }
 
-.home > div.px-4.py-5.my-5.text-center > h1 {
+.home > div > h1 {
   color: #fff !important;
   font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 5rem;
 }
 
-.home > div.px-4.py-5.my-5.text-center > div > p {
+.home > div > div > p {
   color: #ecdfcc;
   font-size: 1.5rem;
 }
@@ -116,4 +116,15 @@ section.contact > div > h2 {
 /* Footer Section */
 .footer {
   background-color: #181c14;
+}
+
+/* Media Queries */
+@media (max-width: 480px) {
+  .home > div > h1 {
+    font-size: 4rem;
+  }
+
+  .home > div > div > p {
+    font-size: 1.2rem;
+  }
 }
