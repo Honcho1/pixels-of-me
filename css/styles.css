@@ -107,3 +107,7 @@ section.contact {
 section.contact > div > h2 {
   color: #fff !important;
 }
+
+.footer {
+  background-color: #181c14;
+}
