@@ -128,3 +128,19 @@ section.contact > div > h2 {
     font-size: 1.2rem;
   }
 }
+
+@media (max-width: 360px) {
+  .home > div.container > nav > div > a > span {
+    font-size: 1.4rem !important;
+  }
+
+  .logo-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+  .home > div.container > nav > div > button {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.7rem;
+  }
+}
